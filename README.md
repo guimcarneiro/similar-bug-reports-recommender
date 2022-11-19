@@ -1,6 +1,9 @@
 # Similar Bug Reports Recommender System
 
-Parts:
-Front-end
-Back-end
-Library
+Components:
+
+[Front-end](https://github.com/guimcarneiro/similar-bug-reports-recommender-frontend)
+
+[Back-end](https://github.com/guimcarneiro/similar-bug-reports-recommender-backend)
+
+[Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
