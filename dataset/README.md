@@ -18,7 +18,7 @@ Por fim, após a execução dos testes, salvamos os resultados em uma terceira e
 
 A maioria dos campos se mantém igual à API do Bugzilla ([link](https://bmo.readthedocs.io/en/latest/using/understanding.html)), excetuando-se pelos campos abaixo:
 
-- "when_changed_to_resolved": Informação foi recuperada por meio do histórico de alterações de cada BR, também disponível na API do \textit{Bugzilla}, e se refere à quando um Bug Report foi alterado para status _RESOLVED_. A partir dele foi possível saber quais Bug Reports estavam abertos para cada _query_, e assim poder buscar por candidatos válidos, de acordo com o oráculo.
+- "when_changed_to_resolved": Informação foi recuperada por meio do histórico de alterações de cada BR, também disponível na API do Bugzilla, e se refere à quando um Bug Report foi alterado para status _RESOLVED_. A partir dele foi possível saber quais Bug Reports estavam abertos para cada _query_, e assim poder buscar por candidatos válidos, de acordo com o oráculo.
 
 - "when_final_change_assigned_to": Não foi utilizado, mas se refere à quando o último responsável foi definido para o Bug Report.
 
