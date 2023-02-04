@@ -1,6 +1,6 @@
-# Similar Bug Reports Recommender System
+# Sistema de Recomendação de Bug Reports Similares utilizando o BERT
 
-Components:
+Abaixo se encontram os links para cada repositório utilizado para desenvolver o TCC entitulado _"Sistema de Recomendação de Bug Reports Similares utilizando o BERT"_:
 
 [Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
 
