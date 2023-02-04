@@ -2,6 +2,8 @@
 
 No link abaixo é possível acessar um _dump_ do banco de dados MongoDB utilizado para os experimentos executados no presente estudo. A seguir, também é apresentada cada entidade pertencente ao mesmo, com o objetivo de facilitar a replicação dos experimentos, caso venha a ser necessário.
 
+[Link para acesso ao dump](https://drive.google.com/drive/folders/1aAbZG5oEazgpst42e3T9IdExRLL54-ET?usp=sharing)
+
 ## Objetivo
 
 O objetivo do presente dataset foi armazenar Bug Reports e suas informações necessárias para calcular recomendações baseadas em similaridade textual. Para isso, utilizamos duas entidades principais: o _bug_, referente ao Bug Report, e o _arc_, referente ao Arco de Similaridade, que armazena informações sobre a similaridade entre um par de Bug Reports.
