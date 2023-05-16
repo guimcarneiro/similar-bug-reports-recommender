@@ -5,7 +5,7 @@ Below are the links to each repository used to develop the article entitled **"S
 
 _Library developed to return BR recommendations based on text similarity:_
 
-[Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
+[Library](https://anonymous.4open.science/r/similar-bugs-reports-recommender-lib-767E)
 
 _Scripts used to process the BRs used as dataset:_
 
