@@ -9,7 +9,7 @@ _Library developed to return BR recommendations based on text similarity:_
 
 _Scripts used to process the BRs used as dataset:_
 
-[Scripts](https://github.com/guimcarneiro/similar-bugs-reports-recommender-scripts)
+[Scripts](https://anonymous.4open.science/r/similar-bugs-reports-recommender-scripts-BEC7)
 
 _MongoDB dump and explanation about the dataset containing the BRs processed vectorizations and results:_
 
