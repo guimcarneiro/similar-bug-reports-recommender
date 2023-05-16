@@ -6,8 +6,6 @@ In the link provided below, it is possible to access a dump of the MongoDB datab
 
 ## Objective
 
-O objetivo do presente dataset foi armazenar Bug Reports e suas informações necessárias para calcular recomendações baseadas em similaridade textual. Para isso, utilizamos duas entidades principais: o _bug_, referente ao Bug Report, e o _arc_, referente ao Arco de Similaridade, que armazena informações sobre a similaridade entre um par de Bug Reports.
-
 The purpose of the present dataset was to store Bug Reports and their necessary information for calculating recommendations based on textual similarity. To achieve this, we employed two main entities: the _bug_, pertaining to the Bug Report, and the _arc_, pertaining to the similarity arc, which stores information about the similarity between a pair of Bug Reports.
 
 Finally, after the execution of the tests, we saved the results in a third entity called _result_, from which it was possible to generate plots, for instance.
