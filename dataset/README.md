@@ -46,4 +46,4 @@ A maioria dos campos se mantém igual à API do Bugzilla ([link](https://bmo.rea
 - **"precision"**: Métrica de precisão.
 - **"likelihood"**: Métrica de likelihood.
 - **"query"**: Se refere à qual BR que serviu de entrada para o resultado obtido.
-- **"recommendations"**: Se refere à lista ordenada de recomendações obtidas a partir da inserção do BR do campo _query_ como entrada. Ele contem os campos **"bg_number"** (ID do BR), **"score"** (score de similaridade), **"relevant"** (se aquele BR foi ou não relevante, considerando o oráculo proposto no TCC).
+- **"recommendations"**: Se refere à lista ordenada de recomendações obtidas a partir da inserção do BR do campo _query_ como entrada. Ele contem os campos **"bg_number"** (ID do BR), **"score"** (score de similaridade), **"relevant"** (se aquele BR foi ou não relevante, considerando o oráculo proposto).
