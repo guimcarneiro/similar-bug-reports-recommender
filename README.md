@@ -5,11 +5,11 @@ Below are the links to each repository used to develop the article entitled **"S
 
 _Library developed to return BR recommendations based on text similarity:_
 
-[Library](https://anonymous.4open.science/r/similar-bugs-reports-recommender-lib-767E)
+[Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
 
 _Scripts used to process the BRs used as dataset:_
 
-[Scripts](https://anonymous.4open.science/r/similar-bugs-reports-recommender-scripts-BEC7)
+[Scripts](https://github.com/guimcarneiro/similar-bugs-reports-recommender-scripts)
 
 _MongoDB dump and explanation about the dataset containing the BRs processed vectorizations and results:_
 
