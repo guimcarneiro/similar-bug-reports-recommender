@@ -6,12 +6,12 @@ This repository contains all the information needed to test and reproduce the bu
 
 _How to install and test the artifacts provided:_
 
-[Installation](https://github.com/guimcarneiro/similar-bugs-reports-recommender-scripts)
+[Installation](https://github.com/guimcarneiro/similar-bug-reports-recommender/blob/main/INSTALL.md)
 
 _Library developed to return BR recommendations based on text similarity:_
 
 [Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
 
-_MongoDB dump and explanation about the dataset containing the BRs processed vectorizations and results:_
+_MongoDB explanation about the dataset containing the BRs processed vectorizations and results:_
 
 [Dataset](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/dataset)
