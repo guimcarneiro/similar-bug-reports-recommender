@@ -10,8 +10,8 @@ _How to install and test the artifacts provided:_
 
 _Library developed to return BR recommendations based on text similarity:_
 
-[Library](https://github.com/guimcarneiro/similar-bugs-reports-recommender-lib)
+[Library](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/artifacts/lib/bug-report-recommender)
 
 _MongoDB explanation about the dataset containing the BRs processed vectorizations and results:_
 
-[Dataset](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/dataset)
+[Dataset](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/artifacts/dataset)
