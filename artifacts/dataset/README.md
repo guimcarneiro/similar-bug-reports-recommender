@@ -2,7 +2,7 @@
 
 In the link provided below, it is possible to access a dump of the MongoDB database used for the experiments conducted in the present study. Furthermore, each entity belonging to the database is also presented, aiming to facilitate the replication of the experiments, if deemed necessary.
 
-The dataset dump can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements).
+The complete dataset dump can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements).
 
 ## Objective
 
@@ -26,6 +26,7 @@ The majority of fields remain consistent with the Bugzilla API ([link](https://b
 
 - **"tfidf_vector"**: It refers to the binary representation of the TF-IDF calculated for the respective Bug Report. To make use of it, one can utilize the "pickle" library by employing the "pickle.load" function.
 
+- **"sample_set"**: Not all bug report entities have this flag. The 10.000 bug reports that have this flag defined as true are the ones used as query referenced on the related paper.
 
 ### **Similarity Arc ("arc")**
 
