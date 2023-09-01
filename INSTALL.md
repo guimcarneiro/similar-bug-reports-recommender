@@ -39,4 +39,4 @@ pip install bugreportrecommender-0.0.6-py3-none-any.whl
 python example.py
 ```
 
-**Obs.:** Do not forget to change the variables *TEST_DATABASE* e *TEST_DATABASE_HOST* to the values defined to the respective dataset created using the dump from **Database Section**.
+**Obs.:** Do not forget to change the variables *TEST_DATABASE* e *TEST_DATABASE_HOST* on _example.py_ to the values defined to the respective dataset created using the dump from **Database Section**.
