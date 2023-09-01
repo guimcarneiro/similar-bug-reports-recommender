@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 4. Install *bug-report-recommender* lib present on `requirements` on the virtual environment;
 ```
-pip install bugreportrecommender-0.0.6-py3-none-any.whl
+pip install bugreportrecommender-1.0.0-py3-none-any.whl
 ```
 5. Copy the _example.py_ file (which can be found on [Requirements](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements)) to your venv directory and execute the _example.py_ file to check for recommendations.
 ```
