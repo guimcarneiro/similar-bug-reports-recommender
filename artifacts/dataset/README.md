@@ -26,7 +26,7 @@ The majority of fields remain consistent with the Bugzilla API ([link](https://b
 
 - **"tfidf_vector"**: It refers to the binary representation of the TF-IDF calculated for the respective Bug Report. To make use of it, one can utilize the "pickle" library by employing the "pickle.load" function.
 
-- **"sample_set"**: Not all bug report entities have this flag. The 10.000 bug reports that have this flag defined as true are the ones used as query referenced on the related paper.
+- **"sample_set"**: Not all bug report entities feature this flag. Among the multitude of bug reports, the 10,000 instances in which this flag is set to true stand out as the specific queries applied in the context of the corresponding paper.
 
 ### **Similarity Arc ("arc")**
 
