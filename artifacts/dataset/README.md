@@ -2,7 +2,7 @@
 
 In the link provided below, it is possible to access a dump of the MongoDB database used for the experiments conducted in the present study. Furthermore, each entity belonging to the database is also presented, aiming to facilitate the replication of the experiments, if deemed necessary.
 
-The complete dataset dump can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements).
+The complete dataset dump can be found on [Requirements](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements).
 
 ## Objective
 
