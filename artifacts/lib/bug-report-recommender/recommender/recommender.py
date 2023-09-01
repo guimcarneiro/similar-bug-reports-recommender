@@ -25,13 +25,13 @@ class SimilarBugReportsRecommendationSystem():
     def get_recommendations(self, query, K=10):
         ranking = []
 
-        candidates = self.data.available_candidates(query)
+        candidates = self.data.retrieve_candidates(query)
         for candidate in candidates:
             candidate_score = self._calculate_score(tfidf_score=candidate["cos_similarity_tfidf"],
                                                     embeddings_score=candidate["cos_similarity_word_embeddings"],
                                                     categoric_score=candidate["categoric_similarity"])
             candidate_obj = {
-                "bg_number": candidate["bg_number"],
+                "bg_number": candidate["to"],
                 "score": candidate_score
             }
             ranking.append(candidate_obj)
