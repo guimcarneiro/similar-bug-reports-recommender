@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 pip install bugreportrecommender-0.0.6-py3-none-any.whl
 ```
-5. Copy the example.py file (which can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements)) to your venv directory and execute the example.py file to check for recommendations.
+5. Copy the _example.py_ file (which can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements)) to your venv directory and execute the _example.py_ file to check for recommendations.
 ```
 python example.py
 ```
