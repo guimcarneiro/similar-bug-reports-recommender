@@ -5,13 +5,13 @@ This file explains how to install and test the source code used in the article. 
 
 MongoDB is needed to use the dump available at `requirements` directory. To install it, you need to apply the following commands:
 
-1. Unzip *similar-bug-reports-recommender-dump.gz*:
-```recommendation library
-gzip -d similar-bug-reports-recommender-dump.gz
+1. Unzip *similar-bug-reports-recommender-dataset-dump.zip*:
 ```
-3. Restore database dump using the output directory of the step before:
+unzip similar-bug-reports-recommender-dataset-dump.zip -d similar-bug-reports-recommender-dataset-dump
 ```
-mongorestore <connection-string> similar-bug-reports-recommender-dump/
+2. Restore database dump using the output directory of the step before:
+```
+mongorestore -d <desired_database_name> similar-bug-reports-recommender-dataset-dump
 ```
 
 ## Library
@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ```
 pip install bugreportrecommender-0.0.6-py3-none-any.whl
 ```
-5. Copy the example.py file to your venv directory and execute the example.py file to check for recommendations.
+5. Copy the example.py file (which can be found on [Requirements Section](https://github.com/guimcarneiro/similar-bug-reports-recommender/tree/main/requirements)) to your venv directory and execute the example.py file to check for recommendations.
 ```
 python example.py
 ```
 
-**Obs.:** Do not forget to change the variables *TEST_DATABASE* e *TEST_DATABASE_HOST* to the values defined to the respective dataset.
+**Obs.:** Do not forget to change the variables *TEST_DATABASE* e *TEST_DATABASE_HOST* to the values defined to the respective dataset created using the dump, at the start of this tutorial.
