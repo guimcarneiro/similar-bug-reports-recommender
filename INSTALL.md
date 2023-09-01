@@ -38,7 +38,7 @@ pip install bugreportrecommender-0.0.6-py3-none-any.whl
 ```
 python example.py
 ```
-**Obs.:** Do not forget to change the variables *TEST_DATABASE* e *TEST_DATABASE_HOST* on _example.py_ to the values defined to the respective dataset created using the dump from **Database Section**.
+**Obs.:** Do not forget to change the variables *TEST_DATABASE*, *TEST_DATABASE_HOST*, and *PORT* on _example.py_ to the values defined to the respective dataset created using the dump from **Database Section**.
 
 Basically, what _example.py_ does is to randomly pick a Bug Report from the 10.000 sample set used as query on the paper, retrieve and print its recommendations, as the following image shows:
 ![image](https://github.com/guimcarneiro/similar-bug-reports-recommender/assets/32914505/ac3269a1-2848-481a-b5a3-e0c981289707)
